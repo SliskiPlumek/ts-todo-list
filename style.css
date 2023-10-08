@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+/* Fixed width for the buttons */
+.todo-buttons button {
+  width: 30px; /* Adjust the width as needed */
+}
+
+.done {
+  background-color: #7ED321;
+  color: white;
+}
+
+.edit {
+  background-color: #007AFF;
+  color: white;
+}
+
+.delete {
+  background-color: #FF3B30;
+  color: white;
+}
